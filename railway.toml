@@ -2,7 +2,6 @@
   builder = "dockerfile"                                                                                                                          
                                                                                                                                                   
   [deploy]                                                                                                                                        
-  startCommand = "node src/server.js & sleep 5 && node /openclaw/dist/entry.js gateway run --bind lan --port 18789"                               
   # healthcheckPath = "/setup/healthz"                                                                                                            
   # healthcheckTimeout = 300                                                                                                                      
   restartPolicyType = "on_failure"                                                                                                                
